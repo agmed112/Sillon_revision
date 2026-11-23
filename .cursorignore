@@ -1,0 +1,17 @@
+# Secretos y configuración local
+/secrets.properties
+**/secrets.properties
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Llaves y certificados privados
+**/*.key
+**/*.pem
+**/*.p12
+**/*.pfx
+**/*.jks
+**/*.keystore
+**/*private-key*
+**/*private_key*

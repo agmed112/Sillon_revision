@@ -1,0 +1,28 @@
+# Maven y compilación
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# IDEs y sistema
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.DS_Store
+.vscode/
+
+# Secretos locales (nunca versionar)
+/secrets.properties
+**/secrets.properties
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Clases compiladas fuera de target
+*.class
